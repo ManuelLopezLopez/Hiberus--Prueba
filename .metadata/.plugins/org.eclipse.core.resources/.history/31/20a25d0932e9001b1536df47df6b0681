@@ -1,0 +1,70 @@
+package Paquete;
+
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.JTextField;
+import javax.swing.JButton;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+
+public class Ventana {
+
+	private JFrame frame;
+	private JTextField TF;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					Ventana window = new Ventana();
+					window.frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the application.
+	 */
+	public Ventana() {
+		initialize();
+	}
+
+	/**
+	 * Initialize the contents of the frame.
+	 */
+	private void initialize() {
+		frame = new JFrame();
+		frame.setBounds(100, 100, 450, 300);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.getContentPane().setLayout(null);
+		
+		TF = new JTextField();
+		TF.setBounds(22, 48, 96, 19);
+		frame.getContentPane().add(TF);
+		TF.setColumns(10);
+		
+		JButton B1 = new JButton("Pulsar");
+		B1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				String var1=TF.getText();
+				JOptionPane.showMessageDialog(this, "Hola" + var1);
+			}
+		});
+		B1.setBounds(22, 83, 85, 21);
+		frame.getContentPane().add(B1);
+		
+		JLabel lblNewLabel = new JLabel("Introduce un nombre");
+		lblNewLabel.setBounds(22, 25, 135, 13);
+		frame.getContentPane().add(lblNewLabel);
+	}
+}

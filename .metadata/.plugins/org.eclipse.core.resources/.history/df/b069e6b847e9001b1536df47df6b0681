@@ -1,0 +1,15 @@
+package Paquete;
+
+public class clase {
+	public static void main(String[] args) {
+		
+		var v=true;
+		if (v) {
+			System.out.println("si");
+		}
+		
+		
+		System.out.println(a==0?"Si":"no");
+	}
+
+}

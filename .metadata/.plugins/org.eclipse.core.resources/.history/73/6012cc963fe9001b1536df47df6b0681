@@ -1,0 +1,15 @@
+package Paquete;
+
+public class LanchaMotora extends Vehiculo{
+	
+
+	
+	 public LanchaMotora() {
+		
+		 
+	 }
+	
+	
+	
+}
+

@@ -1,0 +1,19 @@
+package Paquete;
+
+public class clase {
+	public static void main(String[] args) {
+		int a=6;
+		Integer  b=4;
+		for (int  c = 0; c < a+b; c+2) {
+			
+			if(a-c==b) {
+				continue;
+			}
+			System.out.println("A");
+			if(a-c%b==0) {
+				break;
+			}
+		}
+	}
+
+}

@@ -1,0 +1,20 @@
+
+
+public class Primero {
+	
+
+public static void main(String[] args) {
+		
+			int a=1;
+			System.out.println(v1(a++) + "-"+v1(++a) +"-"+ v2(a++));
+			
+		}
+		
+		
+	
+
+
+
+	
+
+}

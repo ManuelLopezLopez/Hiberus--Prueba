@@ -1,0 +1,10 @@
+package Paquete;
+
+public class clase {
+	public static void main(String[] args) {
+		int a=6;
+		Long  b=a +2l;
+		System.out.println((a==b)?"Si":"no");
+	}
+
+}

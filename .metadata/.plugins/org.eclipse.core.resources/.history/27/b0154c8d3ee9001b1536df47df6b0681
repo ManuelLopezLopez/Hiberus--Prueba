@@ -1,0 +1,10 @@
+package Paquete;
+
+public class Vehiculo {
+	public int potencia;
+	public int numeroRuedas;
+	public int numeroPuertas;
+	public int pasajeros;
+	 
+
+}

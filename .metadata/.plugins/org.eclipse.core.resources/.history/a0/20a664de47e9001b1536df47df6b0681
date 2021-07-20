@@ -1,0 +1,16 @@
+package Paquete;
+
+public class clase {
+	public static void main(String[] args) {
+		Integer a, b, c=3;
+		if (v) {
+			System.out.println("si");
+		}else {
+			System.out.println("no");
+		}
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,18 @@
+package Paquete;
+
+public class clase {
+	public static void main(String[] args) {
+		
+		Integer a=0;
+		for (int n = 0; n <3; n++) {
+			if (v1==null) {
+				v1=0;
+			}
+			
+		}
+		v1++;
+		
+		System.out.println(0==0?"Si":"no");
+	}
+
+}

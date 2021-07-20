@@ -1,0 +1,22 @@
+
+
+public class Primero {
+	
+	
+public static void main(String[] args) {
+		String a="34";
+		String v2 = new String(v1);
+		if(v1==v2) {
+		System.out.println("A");
+		}else if(v1.equals(v2)) {
+			System.out.println("B");
+		}else {
+			System.out.println("C");
+		}
+		
+		
+	}
+
+	
+
+}

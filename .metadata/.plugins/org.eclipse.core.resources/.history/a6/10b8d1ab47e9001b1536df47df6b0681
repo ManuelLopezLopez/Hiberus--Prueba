@@ -1,0 +1,16 @@
+package Paquete;
+
+public class clase {
+	public static void main(String[] args) {
+		
+		Integer a=0;
+		for (int n = 0; n <3; n++) {
+			a=1-a;
+			
+		}
+		
+		
+		System.out.println(a==0?"Si":"no");
+	}
+
+}

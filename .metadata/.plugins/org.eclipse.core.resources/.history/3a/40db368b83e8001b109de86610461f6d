@@ -1,0 +1,15 @@
+
+
+public class Primero {
+	
+	return Integer.parseInt(v);
+public static void main(String[] args) {
+		String a="34";
+		int c=convertir(a);
+		System.out.println(c);
+		
+	}
+
+	
+
+}

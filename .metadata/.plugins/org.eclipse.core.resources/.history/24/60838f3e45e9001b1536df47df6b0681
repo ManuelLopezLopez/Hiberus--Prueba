@@ -1,0 +1,14 @@
+package Paquete;
+
+public class clase {
+	public static void main(String[] args) {
+		String a="Hola";
+		Integer b=a.intValue();
+		if(a==b) {
+			System.out.println("si");
+		}else {
+			System.out.println("no");
+		}
+	}
+
+}

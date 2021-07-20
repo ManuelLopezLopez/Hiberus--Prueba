@@ -1,0 +1,22 @@
+package Paquete;
+
+public class Vehiculo {
+	public int potencia;
+	public int numeroPuertas;
+	
+	public int getPotencia() {
+		return potencia;
+	}
+	public void setPotencia(int potencia) {
+		this.potencia = potencia;
+	}
+	
+	public int getNumeroPuertas() {
+		return numeroPuertas;
+	}
+	public void setNumeroPuertas(int numeroPuertas) {
+		this.numeroPuertas = numeroPuertas;
+	}
+		 
+
+}

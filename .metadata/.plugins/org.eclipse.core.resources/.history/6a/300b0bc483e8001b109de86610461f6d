@@ -1,0 +1,23 @@
+
+
+public class Primero {
+	private static int convertir1(String v) {
+		// TODO Auto-generated method stub
+		
+	return Integer.parseInt(v);
+	}
+public static void main(String[] args) {
+		String a="34";
+		int c=convertir1(a);
+		System.out.println(c);
+		
+	}
+
+private static int convertir(String a) {
+	// TODO Auto-generated method stub
+	return 0;
+}
+
+	
+
+}

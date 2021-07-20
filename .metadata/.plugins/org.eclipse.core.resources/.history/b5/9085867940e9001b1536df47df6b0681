@@ -1,0 +1,5 @@
+package Paquete;
+
+public class Coche extends Vehiculo{
+
+}

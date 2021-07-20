@@ -1,0 +1,15 @@
+package Paquete;
+
+public class clase {
+	public static void main(String[] args) {
+		int a=6;
+		Integer  b=4;
+		for (Long a = 0; a < 4; a++) {
+			System.out.println(a);
+			if(a==2) {
+				break;
+			}
+		}
+	}
+
+}
